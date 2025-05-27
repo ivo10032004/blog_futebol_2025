@@ -1,0 +1,431 @@
+body {
+    background-color: rgba(1, 34, 9, 0.952);
+    padding: 5%;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a:hover {
+    background-color: rgb(190, 196, 188);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+
+}
+
+section {
+    text-align: center;
+}
+
+a {
+    color: rgba(88, 132, 173, 0.562);
+}
+
+li {
+    display: inline;
+    font-weight: 100;
+    padding: 3%;
+
+
+}
+
+.jogadores {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    border-style: inset;
+    width: 20em;
+    height: 33em;
+    padding: 0.1%;
+    background-color: rgba(17, 17, 17, 0.836);
+
+
+
+}
+
+.fina {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(17, 17, 17, 0.836);
+}
+
+.apresentacao {
+    background-color: rgba(17, 17, 17, 0.836);
+
+}
+
+article {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+img {
+    display: flex;
+    align-items: center;
+
+
+}
+
+h3 {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h4 {
+    text-align: center;
+}
+
+.pelezinho {
+    width: 20.2em;
+    height: 31.6em;
+
+}
+
+.ronaldao {
+    width: 20.1em;
+    height: 20.5em;
+}
+
+.zicao {
+    width: 20em;
+    height: 15.5em;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(50, 146, 6, 0.87);
+}
+
+.h1h {
+    display: flex;
+    justify-content: center;
+    border-style: hidden;
+    /* width: 45em; */
+    padding: 2%;
+    margin-left: 6em;
+    background-color: rgba(17, 17, 17, 0.836);
+
+
+}
+
+.linkh {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-style: ridge;
+    background-color: rgba(73, 60, 60, 0.507);
+
+}
+
+iframe {
+    width: 85%;
+
+}
+
+.sele2002 {
+
+    width: 40%;
+    margin-left: 25em;
+}
+
+.sele200 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(17, 17, 17, 0.836);
+    border-top: 6px solid rgb(255, 255, 255);
+    border-bottom: 6px solid rgb(255, 255, 255);
+
+}
+
+.hist {
+    background-color: rgba(17, 17, 17, 0.836);
+}
+
+
+
+.divsele {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(17, 17, 17, 0.836);
+    height: 40%;
+    width: 90%;
+    border-style: hidden;
+    margin-left: 4em;
+
+}
+
+.fotobrr {
+    padding: 3em;
+    height: 15em;
+    margin-left: 20em;
+
+}
+
+.divjoga {
+    display: flex;
+    align-items: center;
+    height: 13em;
+    width: 95%;
+    border-style: hidden;
+    background-color: rgba(17, 17, 17, 0.836);
+
+}
+
+.noticia1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    /* width: 70em; */
+    height: 20em;
+    background-color: rgba(17, 17, 17, 0.836);
+
+
+}
+
+.divinot1 {
+    display: flex;
+    flex-direction: column;
+    /* border-style: hidden; */
+}
+
+.noticia3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    /* width: 70em; */
+    height: 20em;
+    background-color: rgba(17, 17, 17, 0.836);
+
+}
+
+.divinot3 {
+    display: flex;
+    flex-direction: column;
+    /* border-style: hidden; */
+}
+
+.noticia4 {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    /* width: 70em; */
+    height: 20em;
+    background-color: rgba(17, 17, 17, 0.836);
+
+
+}
+
+.divinot4 {
+    display: flex;
+    flex-direction: column;
+    /* border-style: hidden; */
+}
+
+.divsobremim {
+    display: flex;
+    justify-content: space-between;
+    border-style: inset;
+    background-color: rgba(17, 17, 17, 0.836);
+    font-size: 100%;
+    height: 30em;
+
+
+}
+
+
+.imagemh {
+    margin-right: 3%;
+    height: 23em;
+}
+
+ul {
+    border-style: ridge;
+    background-color: rgb(182, 154, 154);
+}
+
+a {
+    color: black;
+    font-size: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    /* border-style: ridge; */
+    background-color: rgba(17, 17, 17, 0.836);
+    width: 100em;
+}
+.program{
+    color: black;
+}
+.fotominha{
+    margin-left: 15em;
+     height: 20em; 
+    width: 40em; 
+}
+.sob{
+     color: black;
+     border-top: 6px solid rgb(255, 255, 255);
+  
+}
+
+
+
+@media (max-width: 1059px) {
+    .noticia1 {
+        display: flex;
+        flex-direction: column;
+        width: 50em;
+    }
+
+    .noticia3 {
+        display: flex;
+        flex-direction: column;
+        width: 50em;
+    }
+
+    .noticia4 {
+        display: flex;
+        flex-direction: column;
+        width: 50em;
+    }
+
+    .ancell {
+        display: flex;
+        flex-direction: column;
+        width: 7em;
+        align-items: center;
+        margin-left: 40%;
+    }
+
+    .ancell2 {
+        display: flex;
+        flex-direction: column;
+        width: 7em;
+        margin-left: 40%;
+    }
+
+    .ancell3 {
+        display: flex;
+        flex-direction: column;
+        width: 12em;
+        margin-left: 30%;
+    }
+    .divjoga{
+        height: 17em;
+    }
+}
+
+@media (max-width: 865px) {
+      .divjoga{
+         height: 50em;
+
+      }
+    .noticia1 {
+        display: flex;
+        flex-direction: column;
+        width: 30em;
+         height: 25em;
+    }
+
+    .noticia3 {
+        display: flex;
+        flex-direction: column;
+        width: 30em;
+         height: 25em;
+
+    }
+
+    .noticia4 {
+        display: flex;
+        flex-direction: column;
+        width: 30em;
+        height: 25em;
+
+    }
+
+    .ancell {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin-left: 40%;
+        
+    }
+
+    .ancell2 {
+        display: flex;
+        flex-direction: column; 
+        margin-left: 40%;
+       
+    }
+
+    .ancell3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10em;
+        
+       
+    }
+    .sele200{
+       margin-right: 30em;
+    }  
+    
+}
+
+@media (max-width: 1650px) {
+    .divsobremim {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footerj {
+        margin-top: 50%;
+    }
+       
+    }
+
+@media (max-width: 950px) {
+    .text {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sele200 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hist {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .fina {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+    @media (max-width: 920px) {
+        .fotominha{
+            width: 15em;
+        }
+        .divjoga{
+        height: 22em;
+    }
+}
+
+ @media (max-width: 610px) { 
+    .divjoga{ 
+          height: 25em; 
+       
+} 
+ } 
