@@ -104,7 +104,8 @@ footer {
     border-style: hidden;
     /* width: 45em; */
     padding: 2%;
-    margin-left: 6em;
+    margin-left: 1em;
+    margin-right: 3em;
     background-color: rgba(17, 17, 17, 0.836);
 
 
@@ -114,7 +115,7 @@ footer {
     display: flex;
     align-items: center;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     border-style: ridge;
     background-color: rgba(73, 60, 60, 0.507);
 
@@ -325,6 +326,11 @@ a {
          height: 50em;
 
       }
+      .sele200{
+        display: flex;
+        align-items: center;
+       
+      }
     .noticia1 {
         display: flex;
         flex-direction: column;
@@ -428,4 +434,36 @@ a {
           height: 25em; 
        
 } 
+.sele200{
+    margin-left: 10em;
+    
+}
+.noticia4{
+    width: 15em;
+    height: 3%;
+
+}
+.ancell3{
+    width: 5em;
+    margin-left: 5em;
+    
+}
+.noticia3{
+     width: 15em;
+    height: 3%;
+}
+.ancell2{
+     width: 5em;
+    margin-left: 5em;
+
+}
+.noticia1{
+    width: 15em;
+    height: 3%;
+
+}
+.ancell{
+      width: 5em;
+    margin-left: 5em;
+}
  } 
